@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="HC-W2P.dll" version="1.0.0.2" publicKeyToken="f014e956e7483d40" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="HC-W2P.dll" version="1.0.0.3" publicKeyToken="f014e956e7483d40" language="neutral" processorArchitecture="msil" type="win32" />
   <description xmlns="urn:schemas-microsoft-com:asm.v1">Chuyển Trắc nghiệm từ Word sang PPT</description>
   <application />
   <entryPoint>
@@ -198,7 +198,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>VHkgEB7mJ2MrYR3TAt74j0iotmL6iY8ToLY1Qk28OXE=</dsig:DigestValue>
+        <dsig:DigestValue>Q0P0oa2XrW2YE6HABB0nOra62ETQWIpl3K1Wu0xQS38=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -234,7 +234,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ThzFfMLRa3y5KqrE36UFqRlgYhwO2OtTPGQf86E2lmA=</dsig:DigestValue>
+        <dsig:DigestValue>xrF2r4kn3s2NF4oclvRO2vdmK9uQkUcwu7TsEEGxw2w=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -246,19 +246,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>pEiZ/iTiaMn3zmS3v4JHdBP02UrMZr+ogqMDZsLfztE=</dsig:DigestValue>
+        <dsig:DigestValue>ngnURAvo/DF/W4GPpoSpoEN/6OyWgcHtYIltlImzFvo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HC-W2P.dll" size="360448">
-      <assemblyIdentity name="HC-W2P" version="1.0.8574.18163" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="HC-W2P" version="1.0.8574.18537" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Y4SnQXJdrmINdGFzWtSKyxUz8ASzwkOUH2Ld3SjDSVI=</dsig:DigestValue>
+        <dsig:DigestValue>pAKyKcozRJ87bCOH83cBTK2DVUh8sCfnWrvrYUDaEog=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -574,11 +574,56 @@
       <dsig:DigestValue>pS9tdBRf+ynpId2WxW2jFjsI3RWM74dTLdE293NE0/Y=</dsig:DigestValue>
     </hash>
   </file>
+  <file name="Templates\ColorFull.potx" size="999574">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dlnWnrLngRbueghhJhez1ckWVxZQ0OkmtlN8IZOeWqk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Templates\Dark.potx" size="1007015">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3DSrxqiXOTzJiPOFYzk9ZsjA2ejqJfFQlMHH+QSBrp4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Templates\Mix.potx" size="999464">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pdv82Ro1pCzrz61iUCHFLN0/0CLw3MnYCJd6DKIm7HY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Templates\Shine.potx" size="1006939">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>eejVPbjLdHMxeDBV2ZVuovg/4omhtEZyDwNh4TfbJhI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Templates\Simple.potx" size="999405">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7xx5aet3rKdohgo1KgAcwXnnuuJiolWZY6doyir6f4w=</dsig:DigestValue>
+    </hash>
+  </file>
   <vstav3:addIn xmlns:vstav3="urn:schemas-microsoft-com:vsta.v3">
     <vstav3:entryPointsCollection>
       <vstav3:entryPoints>
         <vstav3:entryPoint class="HC_W2P.ThisAddIn">
-          <assemblyIdentity name="HC-W2P" version="1.0.8574.18163" language="neutral" processorArchitecture="msil" />
+          <assemblyIdentity name="HC-W2P" version="1.0.8574.18537" language="neutral" processorArchitecture="msil" />
         </vstav3:entryPoint>
       </vstav3:entryPoints>
     </vstav3:entryPointsCollection>
@@ -592,11 +637,11 @@
             <vstov4:friendlyName>HC-W2P</vstov4:friendlyName>
             <vstov4:description>Chuyển Trắc nghiệm từ Word sang PPT</vstov4:description>
             <vstov4.1:ribbonTypes xmlns:vstov4.1="urn:schemas-microsoft-com:vsto.v4.1">
-              <vstov4.1:ribbonType name="HC_W2P.Ribbon, HC-W2P, Version=1.0.8574.18163, Culture=neutral, PublicKeyToken=null" />
+              <vstov4.1:ribbonType name="HC_W2P.Ribbon, HC-W2P, Version=1.0.8574.18537, Culture=neutral, PublicKeyToken=null" />
             </vstov4.1:ribbonTypes>
           </vstov4:appAddIn>
         </vstov4:customization>
       </vstov4:customizations>
     </vstav3:application>
   </vstav3:addIn>
-<publisherIdentity name="CN=HOÀNCHÂN-PC\HoanChan" issuerKeyHash="ed6d23a7ff9a196ff978a3c8d178b5dab18df7c2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>E1c22LJJM7kGQjBRDDOWJvMXNlN+3JsB1MIeMbc5bBw=</DigestValue></Reference></SignedInfo><SignatureValue>kj7sllWBDHdAoQNe+G4tlt5rLPx3u6MxbSmLJgocgcaESZ4eSNOjT9KOe/BJp6pLdGf361c7wOxDFcT6naljOid9LxZ0Fwyh2GeBAPLdoFxp74u0jsbhBqNlXlvBnyoEBX6Q/TbfWxrK07my/o75126SJe/fDCY2gypGkRmb/qg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2UyDez5o6yIjpMLOPB24DJiHVRalej8f4gPUd57xwIjPTUx/cFt1fRnbbDKdzJ0YPPPgkJfUdoEIV5L99+929iIRxo5spro1dI2uMHu9M3Hq54vfMIxzNw5Trd+tN+KO5Kh8JQX449I0P9X6kdhdyFpx7GENXY1F24OnlaGgp+0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="1c6c39b7311ec2d4019bdc7e533617f32696330c51304206b93349b2d8365713" Description="" Url=""><as:assemblyIdentity name="HC-W2P.dll" version="1.0.0.2" publicKeyToken="f014e956e7483d40" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HOÀNCHÂN-PC\HoanChan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>JoziXTPnB2LSDZNZO7oC7vz7s0h3XYy2fL9qSS29dAg=</DigestValue></Reference></SignedInfo><SignatureValue>IT5Fn7hnHotmJUBku3wV/2zCmarf0ju0QN6d8ACBfnJP6kQdo8nqs0tVCBgRYv2QORIrjh7/JArcrz9Ykeo/lSDlDI+eE+618hNEt8M5TWWwTy8Q5+WsSfdh9q1bSfBjByVfjDqoFwe49Rp5vpRcXDXvBOpi5X6AwI9x5aB8X9g=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2UyDez5o6yIjpMLOPB24DJiHVRalej8f4gPUd57xwIjPTUx/cFt1fRnbbDKdzJ0YPPPgkJfUdoEIV5L99+929iIRxo5spro1dI2uMHu9M3Hq54vfMIxzNw5Trd+tN+KO5Kh8JQX449I0P9X6kdhdyFpx7GENXY1F24OnlaGgp+0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQdzyVwD34875CozYct9nLNDANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigASABPAMAATgBDAEgAwgBOAC0AUABDAFwASABvAGEAbgBDAGgAYQBuMB4XDTIzMDYyMDA4NDcyN1oXDTI0MDYxOTE0NDcyN1owMzExMC8GA1UEAx4oAEgATwDAAE4AQwBIAMIATgAtAFAAQwBcAEgAbwBhAG4AQwBoAGEAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA2UyDez5o6yIjpMLOPB24DJiHVRalej8f4gPUd57xwIjPTUx/cFt1fRnbbDKdzJ0YPPPgkJfUdoEIV5L99+929iIRxo5spro1dI2uMHu9M3Hq54vfMIxzNw5Trd+tN+KO5Kh8JQX449I0P9X6kdhdyFpx7GENXY1F24OnlaGgp+0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQBYaNmZfInaxXpTOH0ImapSel//H9PRY2i/d2XJzHcOyTDwrr7ksKd3OgzbTnJwsCZcOvzBbEp2/zPcyudp60cF8rZIaD+5zwUrIQoXPMjr/TuS3EtXUbyE7Y8vSuPIJNsXRn1D2k34CI1GJBTUl1J9FKl+9rw//qSW4HJYYAm6KQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+<publisherIdentity name="CN=HOÀNCHÂN-PC\HoanChan" issuerKeyHash="ed6d23a7ff9a196ff978a3c8d178b5dab18df7c2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>tuO9OmZ+60HRHagEvbvUswpCfB4K5TWHw7gWhuIUUtU=</DigestValue></Reference></SignedInfo><SignatureValue>TklE1xihic+h/srEBT9c9evbfhEcO2EzplXZpRZKWa5kfNXWk8CLvQsftC8RLi52KekoFJXgUF8BLOR4+/E+EX+m+h5QS9kQo0pc9IiCe0G4Iq8Xa3b3aF4Gl7xq5NUu0GdSXGauAQydCB+mFSbnk/XeZR9FRCb0vOz/k3v+WnI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2UyDez5o6yIjpMLOPB24DJiHVRalej8f4gPUd57xwIjPTUx/cFt1fRnbbDKdzJ0YPPPgkJfUdoEIV5L99+929iIRxo5spro1dI2uMHu9M3Hq54vfMIxzNw5Trd+tN+KO5Kh8JQX449I0P9X6kdhdyFpx7GENXY1F24OnlaGgp+0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d55214e28616b8c38735e50a1e7c420ab3d4bbbd04a81dd141eb7e663abde3b6" Description="" Url=""><as:assemblyIdentity name="HC-W2P.dll" version="1.0.0.3" publicKeyToken="f014e956e7483d40" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HOÀNCHÂN-PC\HoanChan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>h099LCu4HKOct4fdeQh5tVuLgyN5/wesrcl9XjBLP1E=</DigestValue></Reference></SignedInfo><SignatureValue>twjyO3dI2xZ2snU7ctdHfsphpntVL24YAoo5e8AEYuts+i/mJUG8C+Mj1wac7LsoKERpkvnUw6oqhr7A3UHWdq6YLSdExF+zUhQV9XEBTiIbZXNRpJtbYfr3WZKtcqonVt5/g0yu1lwTzm9rQQJDYpsx+qvES+Anzhpy+mswT8E=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2UyDez5o6yIjpMLOPB24DJiHVRalej8f4gPUd57xwIjPTUx/cFt1fRnbbDKdzJ0YPPPgkJfUdoEIV5L99+929iIRxo5spro1dI2uMHu9M3Hq54vfMIxzNw5Trd+tN+KO5Kh8JQX449I0P9X6kdhdyFpx7GENXY1F24OnlaGgp+0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQdzyVwD34875CozYct9nLNDANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigASABPAMAATgBDAEgAwgBOAC0AUABDAFwASABvAGEAbgBDAGgAYQBuMB4XDTIzMDYyMDA4NDcyN1oXDTI0MDYxOTE0NDcyN1owMzExMC8GA1UEAx4oAEgATwDAAE4AQwBIAMIATgAtAFAAQwBcAEgAbwBhAG4AQwBoAGEAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA2UyDez5o6yIjpMLOPB24DJiHVRalej8f4gPUd57xwIjPTUx/cFt1fRnbbDKdzJ0YPPPgkJfUdoEIV5L99+929iIRxo5spro1dI2uMHu9M3Hq54vfMIxzNw5Trd+tN+KO5Kh8JQX449I0P9X6kdhdyFpx7GENXY1F24OnlaGgp+0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQBYaNmZfInaxXpTOH0ImapSel//H9PRY2i/d2XJzHcOyTDwrr7ksKd3OgzbTnJwsCZcOvzBbEp2/zPcyudp60cF8rZIaD+5zwUrIQoXPMjr/TuS3EtXUbyE7Y8vSuPIJNsXRn1D2k34CI1GJBTUl1J9FKl+9rw//qSW4HJYYAm6KQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
