@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="HC-W2P.dll" version="1.0.0.8" publicKeyToken="4513f5690c609fc2" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="HC-W2P.dll" version="1.0.0.9" publicKeyToken="6e5cf92043fd7edd" language="neutral" processorArchitecture="msil" type="win32" />
   <description xmlns="urn:schemas-microsoft-com:asm.v1">Chuyển Trắc nghiệm từ Word sang PPT</description>
   <application />
   <entryPoint>
@@ -191,26 +191,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HC-Data.dll" size="40960">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HC-Data.dll" size="38912">
       <assemblyIdentity name="HC-Data" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Et1G8f0SrfBMKXWuwYWe9TDF2u9cAjJ1wAoM3X66nGQ=</dsig:DigestValue>
+        <dsig:DigestValue>Z772+B8LBygDFaVRdC9W8ziOkrMxbSCWBMiMuxs2aGY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HC-Form.dll" size="60416">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HC-Form.dll" size="57856">
       <assemblyIdentity name="HC-Form" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>QBNAjYosFS2jSv3SuU0gJ6zl5S5rMnBtU9uq1G3C+6o=</dsig:DigestValue>
+        <dsig:DigestValue>x4beBbzybStJUN4SkvvXWLOY+1CKjg2w3Sw6evDo9Lo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -222,43 +222,43 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>wF6nQkBYpOoyQJ6W1hq26weHeydO6u1XZPnM33xm9oY=</dsig:DigestValue>
+        <dsig:DigestValue>A1niVPdWEydyPoMiYLwG8GSMMYLdKqHVQgDnCH1/cqc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HC-LicenseKey.dll" size="23552">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HC-LicenseKey.dll" size="22528">
       <assemblyIdentity name="HC-LicenseKey" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ZXUGrWsH7Y99cUAZ0pM+IcjaAmiaHmYO8iG3n3b5fUI=</dsig:DigestValue>
+        <dsig:DigestValue>l4YPPDgehY9QsKKI+P7HAmswA2NPueltQSMPDnoeKPk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HC-Updater.dll" size="19456">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HC-Updater.dll" size="18432">
       <assemblyIdentity name="HC-Updater" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>EnSzbK2AlXxE7fM+GhhX1HmaRuJc28XadrlvBO3xTbM=</dsig:DigestValue>
+        <dsig:DigestValue>XznRP+Br/xvTf0nq7lmlxkeD+rz+BmXl676cAw0XyPg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HC-W2P.dll" size="360448">
-      <assemblyIdentity name="HC-W2P" version="1.0.8574.20276" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HC-W2P.dll" size="348600">
+      <assemblyIdentity name="HC-W2P" version="1.0.8574.20603" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ijxnSXxCbFDbiluy1XZBlz61Twj2AJZ1cJU7s7+mato=</dsig:DigestValue>
+        <dsig:DigestValue>xF6JzjinxR3DGVdiVKmtnldBzuB3TJvtnz4h2oyZyhg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -623,7 +623,7 @@
     <vstav3:entryPointsCollection>
       <vstav3:entryPoints>
         <vstav3:entryPoint class="HC_W2P.ThisAddIn">
-          <assemblyIdentity name="HC-W2P" version="1.0.8574.20276" language="neutral" processorArchitecture="msil" />
+          <assemblyIdentity name="HC-W2P" version="1.0.8574.20603" language="neutral" processorArchitecture="msil" />
         </vstav3:entryPoint>
       </vstav3:entryPoints>
     </vstav3:entryPointsCollection>
@@ -635,11 +635,11 @@
             <vstov4:friendlyName>HC-W2P</vstov4:friendlyName>
             <vstov4:description>Chuyển Trắc nghiệm từ Word sang PPT</vstov4:description>
             <vstov4.1:ribbonTypes xmlns:vstov4.1="urn:schemas-microsoft-com:vsto.v4.1">
-              <vstov4.1:ribbonType name="HC_W2P.Ribbon, HC-W2P, Version=1.0.8574.20276, Culture=neutral, PublicKeyToken=null" />
+              <vstov4.1:ribbonType name="HC_W2P.Ribbon, HC-W2P, Version=1.0.8574.20603, Culture=neutral, PublicKeyToken=null" />
             </vstov4.1:ribbonTypes>
           </vstov4:appAddIn>
         </vstov4:customization>
       </vstov4:customizations>
     </vstav3:application>
   </vstav3:addIn>
-<publisherIdentity name="CN=HOÀNCHÂN-PC\HoanChan" issuerKeyHash="74665dd389e8b3b06f0d2e05f76cdb0a057e6767" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>mG6esVtyy0Kws6YXowy2NcYFLxwT46xltzwEsmflank=</DigestValue></Reference></SignedInfo><SignatureValue>l/10mYiKohvAF0ULoIX50dczJNMXek3V8oEiUjg2Cmxh0FyiJXA/6mxCW7J3GO25LnSMXZPndLddzxycttjSq1Ndg3diyf+HTFboxAAfNVehkw+pQCXpZs6B52hsBNRilLg8b2kYFJqwla1OoKAtSI21MrXa4McuWMgP9dIEw4k=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xVg+LRbG5x7dpPhrHveYRdQmWvvoWozB0Om6kfNKMhF7pKb7yw4Fbsdoy7OcCCs86csHDgnGLRWI/qpi9/pGwIoLEENA5W59feyGU1Euw6m9kJvqMwoMg97NHRY4/CcJXSwrMVLu08lIShoazVfHggMvqdENxv7PV8dJ1KH9q7U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="796ae567b2043cb765ace3131c2f05c635b60ca317a6b3b042cb725bb19e6e98" Description="" Url=""><as:assemblyIdentity name="HC-W2P.dll" version="1.0.0.8" publicKeyToken="4513f5690c609fc2" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HOÀNCHÂN-PC\HoanChan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>zs7SXrH04ApVG0VmQvC0OUHuD2PWKUeKELZ/rYtlfbk=</DigestValue></Reference></SignedInfo><SignatureValue>DD1eTaNKs734WYRqRExU263YXZ/nHvkH/0SRiBxw+wDY6zqQionWfgPM0LszywteVcDa2mThreo8Ui3OV27Cs9qcFBeVzdgPa/R7vdB2cxcyF6KX5K/SdVoznzgL7CU4sw9j8h50JaXZwmDnR9zcLG7ZtjvMRU3CSjW64OPgddo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xVg+LRbG5x7dpPhrHveYRdQmWvvoWozB0Om6kfNKMhF7pKb7yw4Fbsdoy7OcCCs86csHDgnGLRWI/qpi9/pGwIoLEENA5W59feyGU1Euw6m9kJvqMwoMg97NHRY4/CcJXSwrMVLu08lIShoazVfHggMvqdENxv7PV8dJ1KH9q7U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQSMPPgfSUKLJJG0WD2tdwJjANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigASABPAMAATgBDAEgAwgBOAC0AUABDAFwASABvAGEAbgBDAGgAYQBuMB4XDTIzMDYyMzAzMzIxNFoXDTI0MDYyMjA5MzIxNFowMzExMC8GA1UEAx4oAEgATwDAAE4AQwBIAMIATgAtAFAAQwBcAEgAbwBhAG4AQwBoAGEAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAxVg+LRbG5x7dpPhrHveYRdQmWvvoWozB0Om6kfNKMhF7pKb7yw4Fbsdoy7OcCCs86csHDgnGLRWI/qpi9/pGwIoLEENA5W59feyGU1Euw6m9kJvqMwoMg97NHRY4/CcJXSwrMVLu08lIShoazVfHggMvqdENxv7PV8dJ1KH9q7UCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAqqiU1m0ZbqPqrApOuHK2py7xIpQlZOwtyf9Yra/18JQw7xzE8fpLqcMAhN0Hu0JHvahS+6da1VZ4uMUr9YI88Bv3AX8UosIOGYxwtNt12r/V+uGGEcGsg2ByU9hkyaDIqyQJ7XFX3XYJvdkRDpXWs6DVO8AJrOXDVQ0mlTO7WOA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+<publisherIdentity name="CN=HOÀNCHÂN-PC\HoanChan" issuerKeyHash="9e1065580db6462c469639451ba3cae873d863cc" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>hZk5Ru4tJgKswu05NlIYdZ1khTBAVaFNrdQk43xDf/8=</DigestValue></Reference></SignedInfo><SignatureValue>zwB3d7fTke4VeWlz3N2n0b+flCItSDDa+Vh9ofnjwxDn5kaz8EjPwYVS3s64+/QOXDm6FgJ0DsENi+J7TITLuLAgi4ddIJzVjjZurgtIpuM54ZEwy8E0DFpoie8OiWm/tXiFNtXMqkGnCBbv02ZfZy2v6aTPa/yFOyuuOPnONQ4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1imne5Wie8fY/1slPc4GfoCjgAt5KBS0XU2aC2J+CxpoLzTsyf8jvAsSpJ5cvFFhMzvW6dtV6g9jjBFXr+ET0/fucMYufDvg6kyfYAF6KqZmYlgT41BXMs/LsRMrEwpl6lTNERXc84irA+MKsUJ/TmSGB5cQDjwgELPfjZ6S/DE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ff7f437ce324d4ad4da155403085649d7518523639edc2ac02262dee46399985" Description="" Url=""><as:assemblyIdentity name="HC-W2P.dll" version="1.0.0.9" publicKeyToken="6e5cf92043fd7edd" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HOÀNCHÂN-PC\HoanChan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>XsGRSx6gDvBozSLwd6LDcew6x88jioFLXdWtrIgt2bs=</DigestValue></Reference></SignedInfo><SignatureValue>R+cPgqENURdGp4Szknv1yX2zRCc/3RimNlFibDawhiQT9bWciSX2J8kvATV8LGCCp6XU3KUhikWeNVy6tFrEZUzRC5gk79sl23368g24xeTvx+cz6AYyjIqqQGBD4T5HLpqv5vb+puOa2A0NASFD52pa4fo62CDbn7GTm1NugA8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1imne5Wie8fY/1slPc4GfoCjgAt5KBS0XU2aC2J+CxpoLzTsyf8jvAsSpJ5cvFFhMzvW6dtV6g9jjBFXr+ET0/fucMYufDvg6kyfYAF6KqZmYlgT41BXMs/LsRMrEwpl6lTNERXc84irA+MKsUJ/TmSGB5cQDjwgELPfjZ6S/DE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQSToArnOdeJpM6eQnPcommTANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigASABPAMAATgBDAEgAwgBOAC0AUABDAFwASABvAGEAbgBDAGgAYQBuMB4XDTIzMDYyMzA0MjU0N1oXDTI0MDYyMjEwMjU0N1owMzExMC8GA1UEAx4oAEgATwDAAE4AQwBIAMIATgAtAFAAQwBcAEgAbwBhAG4AQwBoAGEAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA1imne5Wie8fY/1slPc4GfoCjgAt5KBS0XU2aC2J+CxpoLzTsyf8jvAsSpJ5cvFFhMzvW6dtV6g9jjBFXr+ET0/fucMYufDvg6kyfYAF6KqZmYlgT41BXMs/LsRMrEwpl6lTNERXc84irA+MKsUJ/TmSGB5cQDjwgELPfjZ6S/DECAwEAATANBgkqhkiG9w0BAQsFAAOBgQDReuAXHHnnIxrJBXnX9ci7bk3ZY/3HP/XVOfeu5cRzo7LudwTLLIzR286YrI6bUhda/QCIxc+8omZwoRmGGemYUp61XhSOdpon3a1z0gzIpxbKYHxOqUNevWK8SImv0GGFNWncN0wDYtO91GaUYjvGaet+BjNEa6F2B/qunPBlGQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
